@@ -1,11 +1,10 @@
 cmake_minimum_required(VERSION 2.8)
 
-set(CMAKE_CXX_COMPILER /usr/bin/c++)
-set(CMAKE_CXX_FLAGS ${CMAKE_CSS_FLAGS} "-fPIC")
-
 ##########################################
 ############## compile  option ###########
 ##########################################
+set(CMAKE_CXX_COMPILER /usr/bin/c++)
+set(CMAKE_CXX_FLAGS ${CMAKE_CSS_FLAGS} "-fPIC")
 ADD_DEFINITIONS("-std=c++1y")
 
 set(CMAKE_THREAD_PREFER_PTHREAD TRUE)
